@@ -6,12 +6,12 @@ import (
 
 	"github.com/go-gost/core/logger"
 	"github.com/go-gost/core/service"
-	"github.com/go-gost/x/api"
-	"github.com/go-gost/x/config"
-	"github.com/go-gost/x/config/parsing"
-	xlogger "github.com/go-gost/x/logger"
-	metrics "github.com/go-gost/x/metrics/service"
-	"github.com/go-gost/x/registry"
+	"github.com/hxdcloud/gost-x/api"
+	"github.com/hxdcloud/gost-x/config"
+	"github.com/hxdcloud/gost-x/config/parsing"
+	xlogger "github.com/hxdcloud/gost-x/logger"
+	metrics "github.com/hxdcloud/gost-x/metrics/service"
+	"github.com/hxdcloud/gost-x/registry"
 )
 
 func buildService(cfg *config.Config) (services []service.Service) {

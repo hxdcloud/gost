@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-gost/x/config"
-	"github.com/go-gost/x/metadata"
-	"github.com/go-gost/x/registry"
+	"github.com/hxdcloud/gost-x/config"
+	"github.com/hxdcloud/gost-x/metadata"
+	"github.com/hxdcloud/gost-x/registry"
 )
 
 var (

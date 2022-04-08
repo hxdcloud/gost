@@ -10,10 +10,10 @@ import (
 
 	"github.com/go-gost/core/logger"
 	"github.com/go-gost/core/metrics"
-	"github.com/go-gost/x/config"
-	"github.com/go-gost/x/config/parsing"
-	xlogger "github.com/go-gost/x/logger"
-	xmetrics "github.com/go-gost/x/metrics"
+	"github.com/hxdcloud/gost-x/config"
+	"github.com/hxdcloud/gost-x/config/parsing"
+	xlogger "github.com/hxdcloud/gost-x/logger"
+	xmetrics "github.com/hxdcloud/gost-x/metrics"
 )
 
 var (
