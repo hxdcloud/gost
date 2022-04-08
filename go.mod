@@ -6,9 +6,10 @@ replace github.com/templexxx/cpu v0.0.7 => github.com/templexxx/cpu v0.0.10-0.20
 
 require (
 	github.com/go-gost/core v0.0.0-20220408131722-a117222cde09
-	github.com/hxdcloud/gost-x v0.0.0-20220408131917-60b30598a264
+	github.com/hxdcloud/gost-x v0.0.0-20220408163332-9f0830307935
 )
 
+	replace "github.com/hxdcloud/gost-x" => "../x"
 require (
 	github.com/aead/chacha20 v0.0.0-20180709150244-8b13a72661da // indirect
 	github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d // indirect
